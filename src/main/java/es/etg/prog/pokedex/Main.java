@@ -1,4 +1,4 @@
-package es.etg.prog;
+package es.etg.prog.pokedex;
 
 public class Main {
     public static void main(String[] args) {
