@@ -5,13 +5,13 @@ import es.etg.prog.pokedex.view.PokedexView;
 public class PokedexController {
     private PokedexView view;
     private boolean salir = false;
+    private int opcion;
 
-    private PokedexController(PokedexView view) {
+    public PokedexController(PokedexView view) {
         this.view = view;
     }
 
     public void init() {
-        int opcion;
         while (!salir) {
             view.mostrarMenu();
             opcion = view.leerEntero();
