@@ -1,4 +1,4 @@
-package es.etg.prog.pokedex.model.dto;
+package es.etg.prog.pokedex.model.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
